@@ -1,0 +1,45 @@
+{
+  "ProjectName": "iot_helper",
+  "ProjectGuid": "b8c76f3b-ff8d-4519-9a82-f51affb51443",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.iothelper",
+  "DisplayName": "iot_helper",
+  "Author": "",
+  "Description": "iot_helper",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{eb2fa83f-e6f7-4af7-a2d5-38605a42c192}",
+  "WP8ProductID": "{77e76009-86c9-4ede-971c-63e325365424}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.iothelper",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
