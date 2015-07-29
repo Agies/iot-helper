@@ -1,8 +1,8 @@
 (function(module) {
 	'use strict';
-	module.controller('AccountCtrl', function($scope) {
+	module.controller('home', function($scope) {
 	  $scope.settings = {
 		enableFriends: true
 	  };
 	});
-})(angular.module('iot.controllers'))
+})(angular.module('iot.controllers', []))
