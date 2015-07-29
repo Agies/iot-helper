@@ -25,10 +25,238 @@
     <Content Include=".abproject" />
     <Content Include=".debug.abproject" />
     <Content Include=".release.abproject" />
+    <Content Include="app\app.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\formulas\controller.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\formulas\tab-formulas.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\home\controller.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\home\tab-home.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\reference\components\resistor.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\reference\controller.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\reference\tab-reference.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\services\chats.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\tabs.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\tools\controller.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app\tools\tab-tools.html">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="cordova.android.js" />
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
+    <Content Include="css\style.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\ionic.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="index.html" />
+    <Content Include="lib\ionic\css\ionic.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\css\ionic.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\fonts\ionicons.eot">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\fonts\ionicons.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\fonts\ionicons.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\fonts\ionicons.woff">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular-ui\angular-ui-router.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular-ui\angular-ui-router.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular-animate.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular-animate.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular-resource.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular-resource.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular-sanitize.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular-sanitize.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\angular\angular.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\ionic-angular.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\ionic-angular.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\ionic.bundle.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\ionic.bundle.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\ionic.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\js\ionic.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\ionic.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\ionicons\ionicons.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\ionicons\_ionicons-font.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\ionicons\_ionicons-icons.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\ionicons\_ionicons-variables.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_action-sheet.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_animations.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_backdrop.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_badge.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_bar.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_button-bar.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_button.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_checkbox.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_form.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_grid.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_items.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_list.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_loading.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_menu.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_mixins.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_modal.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_platform.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_popover.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_popup.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_progress.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_radio.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_range.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_refresher.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_reset.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_scaffolding.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_select.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_slide-box.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_spinner.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_tabs.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_toggle.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_transitions.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_type.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_util.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\scss\_variables.scss">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="lib\ionic\version.json">
+      <SubType>Content</SubType>
+    </Content>
     <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
     <Resource Include="App_Resources\Android\drawable-mdpi\icon.png" />
@@ -71,12 +299,17 @@
     <Resource Include="App_Resources\WP8\Assets\WideLogo.png" />
     <Resource Include="App_Resources\WP8\Tiles\Iconic\110x110.png" />
     <Resource Include="App_Resources\WP8\Tiles\Iconic\202x202.png" />
-    <Content Include="css\index.css" />
     <Content Include="img\cordova.png" />
     <Content Include="img\logo.png" />
-    <Content Include="js\index.js" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\formulas\" />
+    <Folder Include="app\home\" />
+    <Folder Include="app\reference\" />
+    <Folder Include="app\reference\components\" />
+    <Folder Include="app\services\" />
+    <Folder Include="app\tools\" />
     <Folder Include="App_Resources\" />
     <Folder Include="App_Resources\Android\" />
     <Folder Include="App_Resources\Android\drawable-hdpi\" />
@@ -91,7 +324,17 @@
     <Folder Include="css\" />
     <Folder Include="img\" />
     <Folder Include="js\" />
+    <Folder Include="lib\" />
+    <Folder Include="lib\ionic\" />
+    <Folder Include="lib\ionic\css\" />
+    <Folder Include="lib\ionic\fonts\" />
+    <Folder Include="lib\ionic\js\" />
+    <Folder Include="lib\ionic\js\angular-ui\" />
+    <Folder Include="lib\ionic\js\angular\" />
+    <Folder Include="lib\ionic\scss\" />
+    <Folder Include="lib\ionic\scss\ionicons\" />
     <Folder Include="Plugins\" />
+    <Folder Include="templates\" />
   </ItemGroup>
   <Import Project="$(IceniumTargets)Build.targets" />
   <!--
