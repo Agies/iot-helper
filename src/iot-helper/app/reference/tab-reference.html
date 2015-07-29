@@ -1,5 +1,22 @@
-<ion-view view-title="Reference">
-  <ion-content class="padding">
-    
+<ion-view>
+  <ion-nav-title>
+    <div class="bar bar-header">
+      <h1 class="title">Reference</h1>
+    </div>
+  </ion-nav-title>
+  <div class="bar bar-subheader item-input-inset">
+    <label class="item-input-wrapper">
+      <i class="icon ion-ios-search placeholder-icon"></i>
+      <input type="search" placeholder="Search for Component" ng-model="filter">
+    </label>
+    <button class="button button-clear">Cancel</button>
+  </div>
+  <ion-content class="has-subheader">
+    <div class="card" ng-repeat="item in items | filter : filter">
+      <div class="item item-divider">{{item.title}}</div>
+      <div class="item item-text-wrap">
+        <ng-include src="item.view"></ng-include>
+      </div>
+    </div>
   </ion-content>
 </ion-view>
