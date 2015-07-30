@@ -6,6 +6,9 @@
 		$scope.items.push({
 			title: "Resistor",
 			view: "app/reference/components/resistor.html"
+		}, {
+		    title: "Led",
+		    view: "app/reference/components/led.html"
 		});
 	});
 	module.controller('resistor', function($scope) {
