@@ -3,3 +3,49 @@
 .platform-android .bar-custom{
    top: 93px;
  }
+
+.mock-resistor-frame {
+    text-align: center;
+}
+
+.mock-resistor-frame div {
+    display: inline-block;
+}
+
+.resistor-post {
+    height: 5px;
+    width: 20px;
+    background-color: silver;
+    border: black solid 1px;
+    margin-bottom: 0px;
+}
+
+.resistor-post.left {
+    margin-right: -5px;
+}
+
+.resistor-post.right {
+    margin-left: -6px;
+}
+
+.mock-resistor {
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    border: black 1px solid;
+    padding: 0 10px;
+    height: 47px;
+}
+
+.mock-resistor a {
+    min-height: 0px;
+}
+
+.iot-resistor-band {
+    width: 24px;
+    height: 45px;
+    border: 0px;
+    min-width: 0px;
+    min-height: 0px;
+    border-radius: 0px;
+    margin-right: 5px;
+}

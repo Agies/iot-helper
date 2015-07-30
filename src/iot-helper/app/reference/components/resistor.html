@@ -1,3 +1,12 @@
 <div ng-controller="resistor">
-	
+    <div class="mock-resistor-frame">
+        <div class="resistor-post left"></div>
+        <div class="mock-resistor">
+            <iot-resistor-band ng-repeat="band in bands" band="band" colors="colors" on-remove="remove($index)"></iot-resistor-band>
+            <a ng-show="bands.length < 4" ng-click="add()" class="button button-icon icon ion-plus-circled"></a>
+            <a class="button iot-resistor-band" style="background-color:silver"></a>
+        </div>
+        <div class="resistor-post right"></div>
+    </div>
+    <h1 style="text-align:center">{{total()}}&Omega;</h1>
 </div>
