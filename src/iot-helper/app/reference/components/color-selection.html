@@ -1,0 +1,10 @@
+<ion-modal-view>
+    <ion-header-bar>
+        <h1 class="title">Choose a color <a style="background-color:{{band.name}};color:{{band.name}}">---</a></h1>
+        <button class="button button-icon icon ion-close" ng-click="close()"></button>
+    </ion-header-bar>
+    <ion-content>
+        <button class="button button-full" style="background-color:#444;color:white" ng-click="onRemove(band)">remove band</button>
+        <button ng-repeat="color in colors" class="button button-full" style="background-color:{{color.name}}" ng-click="select(color)"></button>
+    </ion-content>
+</ion-modal-view>

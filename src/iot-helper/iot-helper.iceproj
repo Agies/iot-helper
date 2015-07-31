@@ -40,6 +40,7 @@
     <Content Include="app\home\tab-home.html">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="app\reference\components\color-selection.html" />
     <Content Include="app\reference\components\led.html" />
     <Content Include="app\reference\components\resistor.html">
       <SubType>Content</SubType>

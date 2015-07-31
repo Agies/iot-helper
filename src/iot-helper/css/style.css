@@ -1,32 +1,33 @@
 /* Empty. Add your own CSS if you like */
 
-.platform-android .bar-custom{
-   top: 93px;
- }
+.platform-android .bar-custom {
+    top: 93px;
+}
 
 .mock-resistor-frame {
     text-align: center;
 }
 
-.mock-resistor-frame div {
-    display: inline-block;
-}
+    .mock-resistor-frame div {
+        display: inline-block;
+    }
 
 .resistor-post {
     height: 5px;
-    width: 20px;
+    width: 8px;
     background-color: silver;
     border: black solid 1px;
-    margin-bottom: 0px;
+    margin-top: -5px;
+    vertical-align: text-top;
 }
 
-.resistor-post.left {
-    margin-right: -5px;
-}
+    .resistor-post.left {
+        margin-right: -6px;
+    }
 
-.resistor-post.right {
-    margin-left: -6px;
-}
+    .resistor-post.right {
+        margin-left: -6px;
+    }
 
 .mock-resistor {
     background-color: blanchedalmond;
@@ -36,9 +37,10 @@
     height: 47px;
 }
 
-.mock-resistor a {
-    min-height: 0px;
-}
+    .mock-resistor a {
+        min-height: 0px;
+        padding: 0;
+    }
 
 .iot-resistor-band {
     width: 24px;
@@ -47,5 +49,5 @@
     min-width: 0px;
     min-height: 0px;
     border-radius: 0px;
-    margin-right: 5px;
+    margin-right: 2.5px;
 }
