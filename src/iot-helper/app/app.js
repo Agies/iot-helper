@@ -9,6 +9,9 @@ angular.module('iot', ['ionic', 'iot.controllers', 'iot.services'])
       if (window.StatusBar) {
         StatusBar.styleLightContent();
       }
+      if (device && device.platform == "Android") {
+        //document.body.classList.add("platform-android");
+      }
     });
   })
 
@@ -20,7 +23,7 @@ angular.module('iot', ['ionic', 'iot.controllers', 'iot.services'])
         abstract: true,
         templateUrl: 'app/tabs.html'
       })
-      
+
       .state('tab.home', {
         url: '/home',
         views: {

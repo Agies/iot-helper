@@ -2,8 +2,8 @@
   "ProjectName": "iot_helper",
   "ProjectGuid": "b8c76f3b-ff8d-4519-9a82-f51affb51443",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.iothelper",
-  "DisplayName": "iot_helper",
+  "AppIdentifier": "com.trifect.iothelper",
+  "DisplayName": "iot helper",
   "Author": "",
   "Description": "iot_helper",
   "BundleVersion": "1.0",
@@ -25,7 +25,7 @@
   "AndroidHardwareAcceleration": "true",
   "iOSStatusBarStyle": "Default",
   "Framework": "Cordova",
-  "WP8TileTitle": "",
+  "WP8TileTitle": "iot helper",
   "WP8Publisher": "",
   "WP8Capabilities": [
     "ID_CAP_NETWORKING",
@@ -34,15 +34,13 @@
   "WP8Requirements": [],
   "WP8PublisherID": "{eb2fa83f-e6f7-4af7-a2d5-38605a42c192}",
   "WP8ProductID": "{77e76009-86c9-4ede-971c-63e325365424}",
-  "WPSdk": "8.0",
+  "WPSdk": "8.1",
   "WP8PackageIdentityName": "1234Telerik.iothelper",
-  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8WindowsPublisherName": "CN=Trifect",
   "WP8SupportedResolutions": [
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
   ],
-  "CorePlugins": [
-    "cordova-plugin-whitelist"
-  ]
+  "iOSDeploymentTarget": "7.0"
 }

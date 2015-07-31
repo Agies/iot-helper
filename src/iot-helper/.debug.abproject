@@ -1,9 +1,9 @@
 {
   "CorePlugins": [
-    "cordova-plugin-battery-status",
+    "com.telerik.plugins.wkwebview@0.4.0",
     "cordova-plugin-camera",
     "cordova-plugin-console",
-    "cordova-plugin-contacts",
+    "cordova-plugin-crosswalk-webview@1.2.0",
     "cordova-plugin-device",
     "cordova-plugin-device-motion",
     "cordova-plugin-device-orientation",
