@@ -15,8 +15,8 @@ angular.module('iot', ['ionic', 'iot.controllers', 'iot.services'])
     });
   })
 
-  .config(function ($stateProvider, $urlRouterProvider) {
-
+  .config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+    $ionicConfigProvider.scrolling.jsScrolling(false);
     $stateProvider
       .state('tab', {
         url: '/tab',

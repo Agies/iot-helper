@@ -11,67 +11,25 @@
       view: "app/reference/components/led.html"
     });
   });
-  module.controller('resistor', function ($scope, $ionicModal) {
-    $scope.colors = [
-          {
-            name: "black",
-            value: 0
-          },
-          {
-            name: "brown",
-            value: 1
-          },
-          {
-            name: "red",
-            value: 2
-          },
-          {
-            name: "orange",
-            value: 3
-          },
-          {
-            name: "yellow",
-            value: 4
-          },
-          {
-            name: "green",
-            value: 5
-          },
-          {
-            name: "blue",
-            value: 6
-          },
-          {
-            name: "violet",
-            value: 7
-          },
-          {
-            name: "grey",
-            value: 8
-          },
-          {
-            name: "white",
-            value: 9
-          }
-    ];
+  module.controller('resistor', function ($scope, referenceService) {
     $scope.add = function () {
       $scope.bands.push({
-        name: $scope.colors[0].name,
-        value: $scope.colors[0].value
+        name: referenceService.colors[0].name,
+        value: referenceService.colors[0].value
       });
     };
     $scope.remove = function (index) {
       $scope.bands.splice(index, 1);
     };
     $scope.bands = [{
-      name: $scope.colors[1].name,
-      value: $scope.colors[1].value
+      name: referenceService.colors[1].name,
+      value: referenceService.colors[1].value
     }, {
-      name: $scope.colors[1].name,
-      value: $scope.colors[1].value
+      name: referenceService.colors[1].name,
+      value: referenceService.colors[1].value
     }, {
-      name: $scope.colors[0].name,
-      value: $scope.colors[0].value
+      name: referenceService.colors[0].name,
+      value: referenceService.colors[0].value
     }];
     $scope.total = function () {
       var ohms = '';
@@ -107,7 +65,7 @@
       return num;
     }
   });
-  module.directive('iotResistorBand', function ($ionicModal) {
+  module.directive('iotResistorBand', function ($ionicModal, referenceService) {
     function link(scope, element, attrs) {
       $ionicModal.fromTemplateUrl(
       'app/reference/components/color-selection.html', {
@@ -116,6 +74,7 @@
       }).then(function (modal) {
         scope.modal = modal;
       });
+      scope.colors = referenceService.colors;
       scope.open = function () {
         scope.modal.show();
       };
@@ -131,13 +90,15 @@
         scope.remove();
         scope.close();
       }
+      element.on('$destroy', function () {
+        scope.modal.remove();
+      });
     }
     return {
       restrict: 'E',
       link: link,
       scope: {
         band: '=band',
-        colors: '=',
         remove: '&onRemove',
       },
       template: '<button class="iot-resistor-band" style="background-color: {{band.name}}" ng-click="open()"></button>'
