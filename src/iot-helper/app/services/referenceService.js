@@ -60,9 +60,33 @@ angular.module('iot.services', [])
       ohms += bands[i].value;
     }
     ohms += Array(bands[length].value + 1).join('0');
-    return nFormatter(ohms);
+    return ohms;
   }
+  return service;
+})
+
+.factory('ohmsService', function () {
+  var service = {};
+  service.findVoltage = function (amps, resistance) {
+    if (!resistance || !amps) return 0;
+    return amps * resistance;
+  };
+  service.findAmps = function (source, forward, resistance) {
+    if (!source || !resistance) return 0;
+    return (source - forward) / resistance;
+  };
+  service.findResistance = function (source, forward, amps) {
+    if (!source || !amps) return 0;
+    var temp = (source - (forward || 0)) / amps / 10;
+    var total = temp.toFixed(0) * 10;
+    return total;
+  };
+  return service;
+})
+
+.filter('n', function () {
   function nFormatter(num) {
+    if (!num) return null;
     if (num >= 1000000000) {
       return (num / 1000000000).toFixed(1).replace(/\.0$/, '') + 'G';
     }
@@ -72,7 +96,18 @@ angular.module('iot.services', [])
     if (num >= 1000) {
       return (num / 1000).toFixed(1).replace(/\.0$/, '') + 'K';
     }
-    return num;
+    if (num <= .0000001) {
+      return (num * 1000000000).toFixed(1).replace(/\.0$/, '') + 'n';
+    }
+    if (num <= .0001) {
+      return (num * 1000000).toFixed(1).replace(/\.0$/, '') + 'u';
+    }
+    if (num <= .1) {
+      return (num * 1000).toFixed(1).replace(/\.0$/, '') + 'm';
+    }
+    return parseFloat(num).toFixed(1).replace(/\.0$/, '');
   }
-  return service;
+  return function (input) {
+    return nFormatter(input);
+  };
 });

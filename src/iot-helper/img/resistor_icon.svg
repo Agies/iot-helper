@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="96.265251"
+   height="26.314314"
+   id="svg3251"
+   sodipodi:version="0.32"
+   inkscape:version="0.91 r13725"
+   version="1.0"
+   sodipodi:docname="resistor_icon.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs3253">
+    <linearGradient
+       id="linearGradient4743">
+      <stop
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;"
+         id="stop4745" />
+      <stop
+         offset="1"
+         style="stop-color:#c3c3c3;stop-opacity:1;"
+         id="stop4747" />
+    </linearGradient>
+    <clipPath
+       id="clipPath4811"
+       clipPathUnits="userSpaceOnUse">
+      <use
+         id="use4813"
+         width="1"
+         y="0"
+         xlink:href="#rect4732"
+         x="0"
+         height="1"
+         transform="translate(128.40854,539.4577)" />
+    </clipPath>
+    <clipPath
+       id="clipPath4817"
+       clipPathUnits="userSpaceOnUse">
+      <use
+         id="use4819"
+         width="1"
+         y="0"
+         xlink:href="#rect4732"
+         x="0"
+         height="1"
+         transform="translate(128.40854,539.4577)" />
+    </clipPath>
+    <clipPath
+       id="clipPath4823"
+       clipPathUnits="userSpaceOnUse">
+      <use
+         id="use4825"
+         width="1"
+         y="0"
+         xlink:href="#rect4732"
+         x="0"
+         height="1"
+         transform="translate(128.40854,539.4577)" />
+    </clipPath>
+    <clipPath
+       id="clipPath4829"
+       clipPathUnits="userSpaceOnUse">
+      <use
+         id="use4831"
+         width="1"
+         y="0"
+         xlink:href="#rect4732"
+         x="0"
+         height="1"
+         transform="translate(128.40854,539.4577)" />
+    </clipPath>
+    <linearGradient
+       id="linearGradient4835">
+      <stop
+         offset="0"
+         style="stop-color:#323232;stop-opacity:1;"
+         id="stop4837" />
+      <stop
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0.42268041;"
+         id="stop4839" />
+    </linearGradient>
+    <filter
+       id="filter6453"
+       width="1.7837321"
+       y="-0.37227273"
+       x="-0.39186603"
+       height="1.7445453"
+       inkscape:collect="always">
+      <feGaussianBlur
+         stdDeviation="2.3396978"
+         id="feGaussianBlur6455"
+         inkscape:collect="always" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8329838"
+     inkscape:cx="19.431181"
+     inkscape:cy="57.368375"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3294"
+     width="11cm"
+     height="1cm"
+     units="cm"
+     inkscape:window-width="1156"
+     inkscape:window-height="717"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3256">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <dc:date>November 1st, 2007</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Carlos Asmat</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/GPL/2.0/" />
+        <dc:description>Simple resistor clipart.</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>resistor</rdf:li>
+            <rdf:li>electronics</rdf:li>
+            <rdf:li>electrical</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/Notice" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/ShareAlike" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/SourceCode" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-181.00066,-32.468631)">
+    <g
+       id="g3294"
+       transform="translate(14.84757,7.3571606)">
+      <g
+         id="g4169">
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:none;fill-rule:evenodd;stroke:#b2b2b2;stroke-width:2.5679853;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 167.45537,38.380581 93.66069,0"
+           id="path4741" />
+        <path
+           inkscape:connector-curvature="0"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#949494;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 192.31697,28.021201 c -7.31089,0 -13.25001,4.65956 -13.25,10.375 0,5.71544 5.93911,10.34376 13.25,10.34375 2.92897,0 5.61866,-0.77124 7.8125,-2.03125 l 28.28125,0 c 2.19626,1.26479 4.90869,2.03125 7.84375,2.03125 7.31089,0 13.24999,-4.6283 13.25,-10.34375 0,-5.71544 -5.9391,-10.37499 -13.25,-10.375 -2.93507,0 -5.64749,0.76646 -7.84375,2.03125 l -28.28125,0 c -2.19384,-1.26001 -4.88353,-2.03125 -7.8125,-2.03125 z"
+           id="rect4732" />
+        <rect
+           style="fill:#8f5902;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4751"
+           width="5.3329163"
+           clip-path="url(#clipPath4811)"
+           y="562.3728"
+           x="318.51837"
+           height="30.930916"
+           transform="translate(-128.40854,-539.4577)" />
+        <rect
+           style="fill:#4e9a06;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4753"
+           width="5.3329163"
+           clip-path="url(#clipPath4817)"
+           y="562.3728"
+           x="332.85803"
+           height="30.930916"
+           transform="translate(-128.40854,-539.4577)" />
+        <rect
+           style="fill:#cc0000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4755"
+           width="5.3329163"
+           clip-path="url(#clipPath4823)"
+           y="562.3728"
+           x="347.19763"
+           height="30.930916"
+           transform="translate(-128.40854,-539.4577)" />
+        <rect
+           style="fill:#c4a000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4757"
+           width="5.3329163"
+           clip-path="url(#clipPath4829)"
+           y="562.3728"
+           x="361.53723"
+           height="30.930916"
+           transform="translate(-128.40854,-539.4577)" />
+        <ellipse
+           ry="7.541883"
+           rx="7.1647887"
+           cy="570.18445"
+           cx="371.18634"
+           style="opacity:0.23863633;fill:none;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter6453)"
+           id="path5535"
+           transform="translate(-134.44204,-531.91582)" />
+      </g>
+    </g>
+  </g>
+</svg>

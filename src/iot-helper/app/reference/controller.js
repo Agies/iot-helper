@@ -40,8 +40,18 @@
       $scope.close();
     };
   });
-  module.controller('led', function ($scope, referenceService) {
-
+  module.controller('led', function ($scope, referenceService, ohmsService) {
+    $scope.model = {
+      source: null,
+      forward: null,
+      inputAmps: null,
+      amps: null
+    };
+    $scope.findResistance = function () {
+      if (!$scope.model.inputAmps) return 0;
+      $scope.model.amps = parseFloat($scope.model.inputAmps) / 1000;
+      return ohmsService.findResistance($scope.model.source, $scope.model.forward, $scope.model.amps);
+    }
   });
   module.directive('iotResistorBand', function ($ionicModal, referenceService) {
     function link(scope, element, attrs) {
