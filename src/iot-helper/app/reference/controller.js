@@ -32,38 +32,16 @@
       value: referenceService.colors[0].value
     }];
     $scope.total = function () {
-      var ohms = '';
-      var length = $scope.bands.length - 1;
-      if (length < 0) {
-        return 0;
-      }
-      if (length == 0) {
-        return $scope.bands[0].value;
-      }
-      for (var i = 0; i < length; i++) {
-        ohms += $scope.bands[i].value;
-      }
-      ohms += Array($scope.bands[length].value + 1).join('0');
-      return nFormatter(ohms);
+      return referenceService.total($scope.bands);
     }
     $scope.select = function (band, color) {
       band.value = color.value;
       band.name = color.name;
       $scope.close();
     };
+  });
+  module.controller('led', function ($scope, referenceService) {
 
-    function nFormatter(num) {
-      if (num >= 1000000000) {
-        return (num / 1000000000).toFixed(1).replace(/\.0$/, '') + 'G';
-      }
-      if (num >= 1000000) {
-        return (num / 1000000).toFixed(1).replace(/\.0$/, '') + 'M';
-      }
-      if (num >= 1000) {
-        return (num / 1000).toFixed(1).replace(/\.0$/, '') + 'K';
-      }
-      return num;
-    }
   });
   module.directive('iotResistorBand', function ($ionicModal, referenceService) {
     function link(scope, element, attrs) {

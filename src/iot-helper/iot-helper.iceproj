@@ -51,7 +51,7 @@
     <Content Include="app\reference\tab-reference.html">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="app\services\chats.js">
+    <Content Include="app\services\referenceService.js">
       <SubType>Content</SubType>
     </Content>
     <Content Include="app\tabs.html">

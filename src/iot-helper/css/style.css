@@ -51,3 +51,7 @@
     border-radius: 0px;
     margin-right: 2.5px;
 }
+
+.reference-led {
+    width: 100%;
+}
